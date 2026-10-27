@@ -1,0 +1,17 @@
+{
+  "name": "vini-gestao-bebidas",
+  "version": "1.0.0",
+  "description": "Sistema de Gestao de Bebidas",
+  "main": "Servidor.ts",
+  "scripts": {
+    "start": "node Servidor.ts",
+    "build": "echo 'Build ok'"
+  },
+  "dependencies": {
+    "@clerk/express": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pino": "^9.0.0",
+    "pino-http": "^10.0.0"
+  }
+}
